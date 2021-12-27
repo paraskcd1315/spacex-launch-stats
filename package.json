@@ -1,0 +1,21 @@
+{
+	"name": "spacex-launch-stats",
+	"version": "1.0.0",
+	"description": "List showing SpaceX Launch Lists",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"server": "nodemon server.js"
+	},
+	"author": "Paras KCD",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^0.24.0",
+		"express": "^4.17.2",
+		"express-graphql": "^0.12.0",
+		"graphql": "^16.2.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
